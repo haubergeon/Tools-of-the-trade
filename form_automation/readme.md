@@ -1,5 +1,5 @@
 ## Activate virtual environment "form-automation"
-tutorial-env\Scripts\activate.bat
+form_automation\Scripts\activate.bat
 
 ## Install selenium
 pip install selenium
