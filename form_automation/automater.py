@@ -6,8 +6,8 @@ option.add_argument("-incognito")
 for i in range(1,25):
     browser = webdriver.Chrome(executable_path='.\chromedriver.exe', options=option)
     browser.get("form link here")
-    radiobuttons = browser.find_elements_by_class_name("freebirdFormviewerComponentsQuestionRadioChoice")
-    submitbutton = browser.find_elements_by_class_name("appsMaterialWizButtonPaperbuttonContent")
+    radiobuttons = browser.find_elements_by_class_name("classname")
+    submitbutton = browser.find_elements_by_class_name("classname")
 
     radiobuttons[1].click()
     radiobuttons[6].click()
